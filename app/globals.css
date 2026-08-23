@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    @apply bg-base text-mist antialiased;
+  }
+  ::selection {
+    @apply bg-moss/30 text-mist;
+  }
+}
+
+@layer utilities {
+  .contour-bg {
+    background-image:
+      repeating-radial-gradient(circle at 20% 30%, transparent 0, transparent 26px, rgba(122,155,118,0.06) 27px, rgba(122,155,118,0.06) 28px),
+      repeating-radial-gradient(circle at 85% 70%, transparent 0, transparent 40px, rgba(192,133,82,0.05) 41px, rgba(192,133,82,0.05) 42px);
+  }
+  .elevation-label {
+    @apply font-mono text-[11px] uppercase tracking-[0.18em] text-muted;
+  }
+}
