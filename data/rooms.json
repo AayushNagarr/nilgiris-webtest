@@ -1,0 +1,114 @@
+[
+  {
+    "id": "room-1",
+    "name": "Room 1 - Lower Slope",
+    "slots": [
+      { "terrainType": "overgrown", "terrainAngle": "flat", "preparationRequired": 10 },
+      { "terrainType": "rocky", "terrainAngle": "uneven", "preparationRequired": 12 },
+      { "terrainType": "waterlogged", "terrainAngle": "steep", "preparationRequired": 15 }
+    ]
+  },
+  {
+    "id": "room-2",
+    "name": "Room 2 - Mist Cut",
+    "slots": [
+      { "terrainType": "overgrown", "terrainAngle": "uneven", "preparationRequired": 11 },
+      { "terrainType": "waterlogged", "terrainAngle": "flat", "preparationRequired": 13 },
+      { "terrainType": "rocky", "terrainAngle": "steep", "preparationRequired": 16 },
+      { "terrainType": "overgrown", "terrainAngle": "steep", "preparationRequired": 14 }
+    ]
+  },
+  {
+    "id": "room-3",
+    "name": "Room 3 - High Saddle",
+    "slots": [
+      { "terrainType": "waterlogged", "terrainAngle": "uneven", "preparationRequired": 13 },
+      { "terrainType": "rocky", "terrainAngle": "flat", "preparationRequired": 14 },
+      { "terrainType": "overgrown", "terrainAngle": "steep", "preparationRequired": 16 },
+      { "terrainType": "rocky", "terrainAngle": "uneven", "preparationRequired": 17 },
+      { "terrainType": "waterlogged", "terrainAngle": "steep", "preparationRequired": 18 }
+    ]
+  },
+  {
+    "id": "room-4",
+    "name": "Room 4 - Fern Ravine",
+    "slots": [
+      { "terrainType": "overgrown", "terrainAngle": "flat", "preparationRequired": 14 },
+      { "terrainType": "waterlogged", "terrainAngle": "uneven", "preparationRequired": 16 },
+      { "terrainType": "rocky", "terrainAngle": "steep", "preparationRequired": 18 },
+      { "terrainType": "overgrown", "terrainAngle": "uneven", "preparationRequired": 17 },
+      { "terrainType": "waterlogged", "terrainAngle": "steep", "preparationRequired": 19 }
+    ]
+  },
+  {
+    "id": "room-5",
+    "name": "Room 5 - Old Survey Line",
+    "slots": [
+      { "terrainType": "rocky", "terrainAngle": "flat", "preparationRequired": 15 },
+      { "terrainType": "overgrown", "terrainAngle": "steep", "preparationRequired": 18 },
+      { "terrainType": "waterlogged", "terrainAngle": "flat", "preparationRequired": 17 },
+      { "terrainType": "rocky", "terrainAngle": "uneven", "preparationRequired": 19 },
+      { "terrainType": "overgrown", "terrainAngle": "uneven", "preparationRequired": 18 }
+    ]
+  },
+  {
+    "id": "room-6",
+    "name": "Room 6 - Monsoon Shelf",
+    "slots": [
+      { "terrainType": "waterlogged", "terrainAngle": "flat", "preparationRequired": 17 },
+      { "terrainType": "waterlogged", "terrainAngle": "uneven", "preparationRequired": 18 },
+      { "terrainType": "overgrown", "terrainAngle": "steep", "preparationRequired": 20 },
+      { "terrainType": "rocky", "terrainAngle": "uneven", "preparationRequired": 20 },
+      { "terrainType": "waterlogged", "terrainAngle": "steep", "preparationRequired": 22 },
+      { "terrainType": "overgrown", "terrainAngle": "flat", "preparationRequired": 18 }
+    ]
+  },
+  {
+    "id": "room-7",
+    "name": "Room 7 - Wind Gap",
+    "slots": [
+      { "terrainType": "rocky", "terrainAngle": "steep", "preparationRequired": 19 },
+      { "terrainType": "overgrown", "terrainAngle": "uneven", "preparationRequired": 20 },
+      { "terrainType": "waterlogged", "terrainAngle": "steep", "preparationRequired": 22 },
+      { "terrainType": "rocky", "terrainAngle": "flat", "preparationRequired": 19 },
+      { "terrainType": "overgrown", "terrainAngle": "steep", "preparationRequired": 23 },
+      { "terrainType": "waterlogged", "terrainAngle": "uneven", "preparationRequired": 21 }
+    ]
+  },
+  {
+    "id": "room-8",
+    "name": "Room 8 - Tea Ridge",
+    "slots": [
+      { "terrainType": "overgrown", "terrainAngle": "flat", "preparationRequired": 20 },
+      { "terrainType": "rocky", "terrainAngle": "uneven", "preparationRequired": 22 },
+      { "terrainType": "waterlogged", "terrainAngle": "steep", "preparationRequired": 24 },
+      { "terrainType": "overgrown", "terrainAngle": "steep", "preparationRequired": 24 },
+      { "terrainType": "rocky", "terrainAngle": "flat", "preparationRequired": 21 },
+      { "terrainType": "waterlogged", "terrainAngle": "uneven", "preparationRequired": 23 }
+    ]
+  },
+  {
+    "id": "room-9",
+    "name": "Room 9 - Cloud Forest Span",
+    "slots": [
+      { "terrainType": "waterlogged", "terrainAngle": "uneven", "preparationRequired": 22 },
+      { "terrainType": "overgrown", "terrainAngle": "steep", "preparationRequired": 25 },
+      { "terrainType": "rocky", "terrainAngle": "steep", "preparationRequired": 25 },
+      { "terrainType": "waterlogged", "terrainAngle": "flat", "preparationRequired": 23 },
+      { "terrainType": "overgrown", "terrainAngle": "uneven", "preparationRequired": 24 },
+      { "terrainType": "rocky", "terrainAngle": "flat", "preparationRequired": 22 }
+    ]
+  },
+  {
+    "id": "room-10",
+    "name": "Room 10 - Summit Approach",
+    "slots": [
+      { "terrainType": "rocky", "terrainAngle": "flat", "preparationRequired": 24 },
+      { "terrainType": "waterlogged", "terrainAngle": "steep", "preparationRequired": 27 },
+      { "terrainType": "overgrown", "terrainAngle": "uneven", "preparationRequired": 26 },
+      { "terrainType": "rocky", "terrainAngle": "steep", "preparationRequired": 28 },
+      { "terrainType": "waterlogged", "terrainAngle": "uneven", "preparationRequired": 27 },
+      { "terrainType": "overgrown", "terrainAngle": "steep", "preparationRequired": 29 }
+    ]
+  }
+]

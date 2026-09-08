@@ -1,0 +1,41 @@
+[
+  {
+    "id": "simple-column-structure",
+    "name": "Simple Column Structure",
+    "allocation": 6,
+    "effectText": "No effect.",
+    "onComplete": []
+  },
+  {
+    "id": "timber-support",
+    "name": "Timber Support",
+    "allocation": 3,
+    "effectText": "No effect.",
+    "onComplete": [],
+    "unlockable": true
+  },
+  {
+    "id": "stone-pier",
+    "name": "Stone Pier",
+    "allocation": 5,
+    "effectText": "On completion: Reinforce 2 on the new frontier column.",
+    "onComplete": [{ "type": "reinforce", "amount": 2, "target": "self" }],
+    "unlockable": true
+  },
+  {
+    "id": "iron-pier",
+    "name": "Iron Pier",
+    "allocation": 7,
+    "effectText": "On completion: Draw 1.",
+    "onComplete": [{ "type": "draw", "amount": 1 }],
+    "unlockable": true
+  },
+  {
+    "id": "masonry-arch",
+    "name": "Masonry Arch",
+    "allocation": 6,
+    "effectText": "On completion: Repair 2 on this column.",
+    "onComplete": [{ "type": "repair", "amount": 2, "target": "self" }],
+    "unlockable": true
+  }
+]

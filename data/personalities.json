@@ -1,0 +1,20 @@
+[
+  {
+    "id": "patience",
+    "name": "Patience",
+    "keyword": "Retain",
+    "starterCardId": "curing-footing"
+  },
+  {
+    "id": "fervour",
+    "name": "Fervour",
+    "keyword": "Momentum",
+    "starterCardId": "driving-supports"
+  },
+  {
+    "id": "curiosity",
+    "name": "Curiosity",
+    "keyword": "Explore",
+    "starterCardId": "survey-stakes"
+  }
+]

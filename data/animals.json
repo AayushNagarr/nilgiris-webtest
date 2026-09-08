@@ -1,0 +1,38 @@
+[
+  {
+    "id": "nilgiri-tahr",
+    "name": "Nilgiri Tahr",
+    "pressure": 1,
+    "biosphereNotes": "Moves along exposed rocky slopes and steep grassland edges."
+  },
+  {
+    "id": "lion-tailed-macaque",
+    "name": "Lion-tailed Macaque",
+    "pressure": 2,
+    "biosphereNotes": "Likely around dense shola canopy and wet forest margins."
+  },
+  {
+    "id": "gaur",
+    "name": "Gaur",
+    "pressure": 2,
+    "biosphereNotes": "Heavy movement pressure near grassland and lower forest clearings."
+  },
+  {
+    "id": "malabar-giant-squirrel",
+    "name": "Malabar Giant Squirrel",
+    "pressure": 1,
+    "biosphereNotes": "Can appear near mature canopy corridors."
+  },
+  {
+    "id": "elephant-herd",
+    "name": "Elephant Herd",
+    "pressure": 3,
+    "biosphereNotes": "High disruption risk along wet valleys and plantation edges."
+  },
+  {
+    "id": "hill-myna",
+    "name": "Hill Myna",
+    "pressure": 1,
+    "biosphereNotes": "Low direct pressure, most common around mixed forest clearings."
+  }
+]

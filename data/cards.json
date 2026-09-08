@@ -1,0 +1,116 @@
+[
+  {
+    "id": "simple-foundation",
+    "name": "Simple Foundation",
+    "cost": 1,
+    "rarity": "Standard",
+    "effectText": "Prepare 5.",
+    "starterCopies": 4,
+    "effects": [{ "type": "prepare", "amount": 5 }]
+  },
+  {
+    "id": "temporary-bracing",
+    "name": "Temporary Bracing",
+    "cost": 1,
+    "rarity": "Standard",
+    "effectText": "Reinforce 5.",
+    "starterCopies": 3,
+    "effects": [{ "type": "reinforce", "amount": 5, "target": "chosen" }]
+  },
+  {
+    "id": "braced-supports",
+    "name": "Braced Supports",
+    "cost": 2,
+    "rarity": "Standard",
+    "effectText": "Prepare 4. Draw 1.",
+    "starterCopies": 2,
+    "effects": [{ "type": "prepare", "amount": 4 }, { "type": "draw", "amount": 1 }]
+  },
+  {
+    "id": "curing-footing",
+    "name": "Curing Footing",
+    "cost": 1,
+    "rarity": "Standard",
+    "personality": "Patience",
+    "retain": true,
+    "effectText": "Retain. Prepare 3. Prepare +2 for each turn this was held.",
+    "starterCopies": 0,
+    "effects": [{ "type": "prepare", "amount": 3, "perHeldTurn": 2 }]
+  },
+  {
+    "id": "driving-supports",
+    "name": "Driving Supports",
+    "cost": 1,
+    "rarity": "Standard",
+    "personality": "Fervour",
+    "effectText": "Prepare 3. Momentum: Prepare +2 for each other card played this turn.",
+    "starterCopies": 0,
+    "effects": [{ "type": "prepare", "amount": 3, "perPreviousCardPlayed": 2 }]
+  },
+  {
+    "id": "survey-stakes",
+    "name": "Survey Stakes",
+    "cost": 1,
+    "rarity": "Standard",
+    "personality": "Curiosity",
+    "effectText": "Prepare 3. Explore 1.",
+    "starterCopies": 0,
+    "effects": [{ "type": "prepare", "amount": 3 }, { "type": "explore", "cost": 1 }]
+  },
+  {
+    "id": "masonry-reset",
+    "name": "Masonry Reset",
+    "cost": 1,
+    "rarity": "Standard",
+    "effectText": "Repair 3.",
+    "reward": true,
+    "effects": [{ "type": "repair", "amount": 3, "target": "chosen" }]
+  },
+  {
+    "id": "watchful-bracing",
+    "name": "Watchful Bracing",
+    "cost": 2,
+    "rarity": "Innovative",
+    "effectText": "Reinforce 4. Draw 1.",
+    "reward": true,
+    "effects": [{ "type": "reinforce", "amount": 4, "target": "chosen" }, { "type": "draw", "amount": 1 }]
+  },
+  {
+    "id": "drainage-ditches",
+    "name": "Drainage Ditches",
+    "cost": 2,
+    "rarity": "Innovative",
+    "effectText": "Prepare 3. Repair 2.",
+    "reward": true,
+    "effects": [{ "type": "prepare", "amount": 3 }, { "type": "repair", "amount": 2, "target": "chosen" }]
+  },
+  {
+    "id": "survey-lines",
+    "name": "Survey Lines",
+    "cost": 0,
+    "rarity": "Standard",
+    "effectText": "Draw 1.",
+    "reward": true,
+    "effects": [{ "type": "draw", "amount": 1 }]
+  },
+  {
+    "id": "accelerated-works",
+    "name": "Accelerated Works",
+    "cost": 1,
+    "rarity": "Inspired",
+    "effectText": "Gain 1 MH. Prepare 2.",
+    "reward": true,
+    "craftingPool": "inspired",
+    "effects": [{ "type": "gainMh", "amount": 1 }, { "type": "prepare", "amount": 2 }]
+  },
+  {
+    "id": "monsoon-gamble",
+    "name": "Monsoon Gamble",
+    "cost": 0,
+    "rarity": "Experimental",
+    "effectText": "Gain 2 MH. Add 2 Overrun to the active column.",
+    "reward": true,
+    "craftingPool": "experimental",
+    "effects": [{ "type": "gainMh", "amount": 2 }, { "type": "selfOverrun", "amount": 2 }]
+  }
+]

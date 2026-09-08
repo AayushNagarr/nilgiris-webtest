@@ -1,0 +1,15 @@
+{
+  "startingBudget": 30,
+  "mhPerTurn": 4,
+  "handSize": 5,
+  "maxCompletionsPerTurn": 1,
+  "ratingThresholds": {
+    "twoStar": 60,
+    "threeStar": 85
+  },
+  "fundingOptions": [
+    { "id": "funding-5", "label": "+5 Budget", "budget": 5, "nextRoomTurnLimit": 8 },
+    { "id": "funding-10", "label": "+10 Budget", "budget": 10, "nextRoomTurnLimit": 6 },
+    { "id": "funding-15", "label": "+15 Budget", "budget": 15, "nextRoomTurnLimit": 5 }
+  ]
+}

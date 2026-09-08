@@ -1276,7 +1276,7 @@ export function GameBoard() {
           {state.phase === "won" && <div className="border border-moss bg-moss/10 p-3 text-sm text-moss">Prototype rooms complete.</div>}
 
           <RewardOverlay state={state} setState={setState} />
-          <CraftingSpace state={state} setState={setState} />
+          <CraftingSpace state={state} setState={setState} onOpenMap={() => setMapOpen(true)} />
 
           <section className={`min-h-80 overflow-x-auto border border-hairline bg-base p-3 ${tutorialHighlightClass(highlighted("slots"))}`}>
             <div className="flex min-w-max gap-3">

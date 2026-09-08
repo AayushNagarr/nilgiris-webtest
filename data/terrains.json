@@ -1,0 +1,20 @@
+[
+  {
+    "id": "overgrown",
+    "name": "Overgrown",
+    "angles": ["flat", "steep", "uneven"],
+    "note": "Vegetation makes preparation feel slow, but has no special rule in this prototype."
+  },
+  {
+    "id": "waterlogged",
+    "name": "Waterlogged",
+    "angles": ["flat", "steep", "uneven"],
+    "note": "Wet ground makes exposure feel dangerous, but has no special rule in this prototype."
+  },
+  {
+    "id": "rocky",
+    "name": "Rocky",
+    "angles": ["flat", "steep", "uneven"],
+    "note": "Stone and uneven ground increase requirements through room data only."
+  }
+]

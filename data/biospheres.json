@@ -1,0 +1,146 @@
+[
+  {
+    "id": "shola-forest",
+    "name": "Shola Forest",
+    "summary": "Cool montane forest with saturated soil, dense vegetation, and broken slopes.",
+    "difficultyBias": 1.08,
+    "dominantTerrainType": "overgrown",
+    "dominantTerrainShare": 0.6,
+    "terrainWeights": [
+      { "terrainType": "overgrown", "weight": 7 },
+      { "terrainType": "waterlogged", "weight": 3 },
+      { "terrainType": "rocky", "weight": 1 }
+    ],
+    "angleWeights": [
+      { "terrainAngle": "flat", "weight": 1 },
+      { "terrainAngle": "uneven", "weight": 4 },
+      { "terrainAngle": "steep", "weight": 4 }
+    ],
+    "wildlifeWeights": [
+      { "animalId": "lion-tailed-macaque", "weight": 4 },
+      { "animalId": "malabar-giant-squirrel", "weight": 3 },
+      { "animalId": "hill-myna", "weight": 2 }
+    ],
+    "predictiveText": {
+      "likelyTerrain": "Overgrown and Waterlogged are common.",
+      "commonAngles": "Uneven and Steep worksites are likely.",
+      "possibleWildlife": "Macaques, giant squirrels, and hill mynas.",
+      "routeRisk": "Wet conditions make this alignment more punishing."
+    }
+  },
+  {
+    "id": "rocky-escarpment",
+    "name": "Rocky Escarpment",
+    "summary": "Exposed stone faces with reliable footing but harsh slopes and high wind exposure.",
+    "difficultyBias": 1.04,
+    "dominantTerrainType": "rocky",
+    "dominantTerrainShare": 0.7,
+    "terrainWeights": [
+      { "terrainType": "rocky", "weight": 9 },
+      { "terrainType": "overgrown", "weight": 1 },
+      { "terrainType": "waterlogged", "weight": 1 }
+    ],
+    "angleWeights": [
+      { "terrainAngle": "flat", "weight": 2 },
+      { "terrainAngle": "uneven", "weight": 3 },
+      { "terrainAngle": "steep", "weight": 5 }
+    ],
+    "wildlifeWeights": [
+      { "animalId": "nilgiri-tahr", "weight": 5 },
+      { "animalId": "hill-myna", "weight": 2 }
+    ],
+    "predictiveText": {
+      "likelyTerrain": "Rocky terrain dominates.",
+      "commonAngles": "Steep and Uneven sections are frequent.",
+      "possibleWildlife": "Nilgiri tahr and hill mynas.",
+      "routeRisk": "Windy conditions raise the construction pressure."
+    }
+  },
+  {
+    "id": "tea-slope",
+    "name": "Tea Slope",
+    "summary": "Cultivated hillside with clearer access, mixed drainage, and moderate grade changes.",
+    "difficultyBias": 0.96,
+    "dominantTerrainType": "rocky",
+    "dominantTerrainShare": 0.45,
+    "terrainWeights": [
+      { "terrainType": "overgrown", "weight": 3 },
+      { "terrainType": "waterlogged", "weight": 2 },
+      { "terrainType": "rocky", "weight": 3 }
+    ],
+    "angleWeights": [
+      { "terrainAngle": "flat", "weight": 4 },
+      { "terrainAngle": "uneven", "weight": 3 },
+      { "terrainAngle": "steep", "weight": 2 }
+    ],
+    "wildlifeWeights": [
+      { "animalId": "gaur", "weight": 2 },
+      { "animalId": "hill-myna", "weight": 3 },
+      { "animalId": "elephant-herd", "weight": 1 }
+    ],
+    "predictiveText": {
+      "likelyTerrain": "A balanced mix of Rocky, Overgrown, and Waterlogged.",
+      "commonAngles": "Flat and Uneven worksites are most common.",
+      "possibleWildlife": "Gaur, hill mynas, and occasional elephant movement.",
+      "routeRisk": "Generally forgiving unless weather is already severe."
+    }
+  },
+  {
+    "id": "wet-valley",
+    "name": "Wet Valley",
+    "summary": "Low drainage corridor with waterlogged approaches and dense lower growth.",
+    "difficultyBias": 1.12,
+    "dominantTerrainType": "waterlogged",
+    "dominantTerrainShare": 0.7,
+    "terrainWeights": [
+      { "terrainType": "waterlogged", "weight": 9 },
+      { "terrainType": "overgrown", "weight": 2 },
+      { "terrainType": "rocky", "weight": 1 }
+    ],
+    "angleWeights": [
+      { "terrainAngle": "flat", "weight": 4 },
+      { "terrainAngle": "uneven", "weight": 4 },
+      { "terrainAngle": "steep", "weight": 1 }
+    ],
+    "wildlifeWeights": [
+      { "animalId": "elephant-herd", "weight": 4 },
+      { "animalId": "gaur", "weight": 3 },
+      { "animalId": "hill-myna", "weight": 1 }
+    ],
+    "predictiveText": {
+      "likelyTerrain": "Waterlogged terrain is very likely.",
+      "commonAngles": "Flat and Uneven sections dominate.",
+      "possibleWildlife": "Elephants, gaur, and wet-valley birds.",
+      "routeRisk": "Avoid when Wet is already high unless the deck can stabilize Overrun."
+    }
+  },
+  {
+    "id": "grassland-saddle",
+    "name": "Grassland Saddle",
+    "summary": "Open highland saddle with easier clearing but more exposed wind lines.",
+    "difficultyBias": 1,
+    "dominantTerrainType": "rocky",
+    "dominantTerrainShare": 0.55,
+    "terrainWeights": [
+      { "terrainType": "rocky", "weight": 5 },
+      { "terrainType": "overgrown", "weight": 2 },
+      { "terrainType": "waterlogged", "weight": 1 }
+    ],
+    "angleWeights": [
+      { "terrainAngle": "flat", "weight": 3 },
+      { "terrainAngle": "uneven", "weight": 3 },
+      { "terrainAngle": "steep", "weight": 3 }
+    ],
+    "wildlifeWeights": [
+      { "animalId": "nilgiri-tahr", "weight": 3 },
+      { "animalId": "gaur", "weight": 2 },
+      { "animalId": "hill-myna", "weight": 1 }
+    ],
+    "predictiveText": {
+      "likelyTerrain": "Rocky terrain is most common, with some Overgrown sections.",
+      "commonAngles": "Flat, Uneven, and Steep are all plausible.",
+      "possibleWildlife": "Nilgiri tahr, gaur, and hill mynas.",
+      "routeRisk": "Good middle route unless Windy is already high."
+    }
+  }
+]

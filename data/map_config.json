@@ -1,0 +1,33 @@
+{
+  "defaultSeed": 1847,
+  "minNodes": 20,
+  "maxOutgoing": 3,
+  "maxRouteRooms": 10,
+  "roomLayerCounts": [1, 2, 3, 2, 3, 2, 3, 2, 3, 1],
+  "difficultyProgression": {
+    "base": 1,
+    "perRoom": 0.06,
+    "max": 1.6
+  },
+  "roomGeneration": {
+    "minSlots": 3,
+    "maxSlots": 6,
+    "basePreparation": 8,
+    "preparationPerRoom": 1.6,
+    "randomPreparation": 4,
+    "terrainPreparationMultiplier": {
+      "overgrown": 1.06,
+      "waterlogged": 1.1,
+      "rocky": 1.04
+    },
+    "anglePreparationMultiplier": {
+      "flat": 1,
+      "uneven": 1.08,
+      "steep": 1.16
+    },
+    "weatherPreparationBonus": {
+      "wetWaterlogged": 1,
+      "windySteep": 1
+    }
+  }
+}
