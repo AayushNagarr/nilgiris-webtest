@@ -23,4 +23,90 @@
   .elevation-label {
     @apply font-mono text-[11px] uppercase tracking-[0.18em] text-muted;
   }
+  .forest-hit-shake {
+    animation: forest-hit-shake 520ms cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+  .forest-hit-rain {
+    box-shadow: inset 0 0 0 2px rgba(192,101,79,0.55), 0 0 22px rgba(192,101,79,0.16);
+  }
+  .forest-hit-wind {
+    box-shadow: inset 0 0 0 2px rgba(192,101,79,0.55), 0 0 22px rgba(192,101,79,0.14);
+  }
+  .forest-hit-herd {
+    animation-name: forest-herd-shake;
+    box-shadow: inset 0 0 0 2px rgba(192,101,79,0.6), 0 0 24px rgba(192,101,79,0.18);
+  }
+  .forest-hit-impact {
+    box-shadow: inset 0 0 0 2px rgba(192,101,79,0.6), 0 0 24px rgba(192,101,79,0.18);
+  }
+  .forest-rain-drop {
+    position: absolute;
+    top: -32px;
+    width: 2px;
+    height: 44px;
+    background: linear-gradient(to bottom, rgba(229,232,220,0), rgba(229,232,220,0.85));
+    transform: rotate(12deg);
+    animation: forest-rain-fall 620ms linear;
+  }
+  .forest-wind-streak {
+    position: absolute;
+    left: -55%;
+    width: 68%;
+    height: 2px;
+    background: linear-gradient(to right, rgba(229,232,220,0), rgba(229,232,220,0.8), rgba(229,232,220,0));
+    animation: forest-wind-cross 620ms ease-out;
+  }
+  .forest-herd-dust {
+    width: 18px;
+    height: 18px;
+    border-radius: 9999px;
+    background: rgba(192,133,82,0.48);
+    animation: forest-dust-rise 700ms ease-out;
+  }
+  .forest-impact-flash {
+    background: radial-gradient(circle at 50% 45%, rgba(192,101,79,0.68), rgba(192,101,79,0.18) 38%, transparent 64%);
+    animation: forest-impact-flash 520ms ease-out;
+  }
+}
+
+@keyframes forest-hit-shake {
+  0%, 100% { transform: translateX(0); }
+  12% { transform: translateX(-5px); }
+  24% { transform: translateX(5px); }
+  36% { transform: translateX(-4px); }
+  52% { transform: translateX(3px); }
+  68% { transform: translateX(-2px); }
+}
+
+@keyframes forest-herd-shake {
+  0%, 100% { transform: translate(0, 0); }
+  10% { transform: translate(-7px, 2px); }
+  22% { transform: translate(6px, -1px); }
+  36% { transform: translate(-5px, 2px); }
+  50% { transform: translate(5px, 0); }
+  66% { transform: translate(-2px, 1px); }
+}
+
+@keyframes forest-rain-fall {
+  0% { opacity: 0; transform: translateY(-42px) rotate(12deg); }
+  18% { opacity: 1; }
+  100% { opacity: 0; transform: translateY(210px) rotate(12deg); }
+}
+
+@keyframes forest-wind-cross {
+  0% { opacity: 0; transform: translateX(0); }
+  16% { opacity: 1; }
+  100% { opacity: 0; transform: translateX(245%); }
+}
+
+@keyframes forest-dust-rise {
+  0% { opacity: 0; transform: translateY(18px) scale(0.55); }
+  24% { opacity: 0.9; }
+  100% { opacity: 0; transform: translateY(-26px) scale(1.8); }
+}
+
+@keyframes forest-impact-flash {
+  0% { opacity: 0; transform: scale(0.9); }
+  18% { opacity: 1; }
+  100% { opacity: 0; transform: scale(1.08); }
 }
